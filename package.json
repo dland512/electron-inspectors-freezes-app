@@ -1,0 +1,16 @@
+{
+  "name": "electron-inspector-freezes-app",
+  "version": "1.0.0",
+  "description": "shows that running the debugger using electron-inspector makes the electron app freeze up",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "1.4.16",
+    "electron-inspector": "0.1.4",
+    "electron-rebuild": "1.2.1"
+  },
+  "scripts": {
+    "start": "electron --debug=5858 main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
